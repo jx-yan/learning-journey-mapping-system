@@ -4,10 +4,10 @@
 		"build": "nuxt build",
 		"dev": "nuxt dev",
 		"start": "yarn --cwd ./backend/ install && yarn --cwd ./backend/ start",
+		"test": "yarn --cwd ./backend/ test",
 		"generate": "nuxt generate",
 		"preview": "nuxt preview",
-		"postinstall": "nuxt prepare",
-		"test": "npx mocha --no-timeouts 'tests/*.js'"
+		"postinstall": "nuxt prepare"
 	},
 	"devDependencies": {
 		"@nuxtjs/color-mode": "^3.1.6",
