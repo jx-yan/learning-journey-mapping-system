@@ -10,14 +10,9 @@
 2. Run the following command on CMD in project directory
 ```
 yarn install
+yarn start
 yarn dev
 ```
-
-## Frontend Frameworks and Libraries
-- [Nuxt 3](https://v3.nuxtjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/docs/configuration)
-- [DaisyUI](https://daisyui.com/)
-
 
 ## Functionalities
 ### Staff
@@ -37,13 +32,23 @@ yarn dev
 - **Add/Remove Courses to Learning Journeys** - Add or Remove courses added to learning journeys
 - **Filter Courses by Skills** - View and filter courses by skills
 
-## Backend and Data Storage
-- Refer to this [link](https://bitbucket.org/spm-g2t1/backend-ljps/) to view backend repository
+## Frontend Frameworks and Libraries
+- [Nuxt 3](https://v3.nuxtjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/docs/configuration)
+- [DaisyUI](https://daisyui.com/)
 
-## Authors and Acknowledgment
-- Teo Wei Hern
-- Yan Jiaxing
-- Chen Jun Wei 
-- Kevin Yoong
-- Liew Yong Jiun
-- Calma Eleazer Zeus Amigable
+## Backend Frameworks and Libraries
+- [Express](https://expressjs.com/)
+- [NodeJS](https://nodejs.org/en/)
+- [Planetscale](https://planetscale.com/)
+- [Prisma](https://www.prisma.io/docs/)
+- [Jest](https://jestjs.io/)
+
+## Data Storage
+- PlanetScale RDMS, A cloud-hosted mySQL compatible database
+
+## CI pipeline 
+- building, testing with unit test and code linting to check on every push to develop, master branch and pull request
+
+## Endpoints
+- CRUD for Courses, Journey, Jobs, Staff, Skills, Depts
