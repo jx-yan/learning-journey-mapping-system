@@ -1,4 +1,4 @@
-<h1 align="center">Learning Journey Mapping System - Frontend</h1>
+<h1 align="center">Learning Journey Mapping System</h1>
 
 <p align="center">A personal learning journey tracker that could guide staff on the courses they could take either from the LMS or in physical classes to prepare them for the next position or in a different area within the organisation.</p>
  
@@ -48,7 +48,7 @@ yarn dev
 - PlanetScale RDMS, A cloud-hosted mySQL compatible database
 
 ## CI pipeline 
-- building, testing with unit test and code linting to check on every push to develop, master branch and pull request
+- building, testing with unit test and code linting to check on every push to develop, master branch and pull request with Bitbucket Pipelines
 
 ## Endpoints
 - CRUD for Courses, Journey, Jobs, Staff, Skills, Depts
